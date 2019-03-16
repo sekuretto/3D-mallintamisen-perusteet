@@ -1,0 +1,24 @@
+site_name: TTMW0110 - 3D-mallintamisen perusteet
+site_url: http://TTMW0110.pages.labranet.jamk.fi/3d-mallintamisen-perusteet/
+
+site_author: JAMK IT
+
+docs_dir: materiaalit
+site_dir: public
+markdown_extensions:
+    - toc:
+        anchorlink: True
+        separator: "_"
+    - admonition
+    - tables
+    - sane_lists
+    
+theme:
+    name: 'material'
+    palette:
+      primary: 'orange'
+      accent: 'amber'
+    logo:
+      icon: 'school'
+
+google_analytics: ['UA-131157041-1', 'http://TTMW0110.pages.labranet.jamk.fi/3d-mallintamisen-perusteet/']
